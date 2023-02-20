@@ -1,0 +1,85 @@
+.compressor p{
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0 black;
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 20px 10px;
+    color: black;
+    border:solid black 1px;
+    margin: 20px 0;
+    
+}
+.v220{
+    color: red;
+    font-weight: 900;
+}
+.compembraco{
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.comp13, .comp14, .comp15, .comp16{
+    margin: 0 23px;
+    display: flex;
+    gap: 15px;
+    
+}
+.comp13 p{
+    background:#643ee2; 
+    color: #ffffff;  
+}
+
+.comp14 p{
+    background: #5ba1ec;
+}
+.comp14ecla p{
+    background: rgb(58, 58, 58);
+}
+.comp15 p{
+    background: #5ba1ec;
+}
+.comp16 p{
+    background: #643ee2; 
+    color: #ffffff;  
+}
+.compressor p:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 10px 5px yellow;
+    color: black;
+
+}
+
+/*----aba-descricoes----*/
+.promocao{
+    color: red;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+
+/*----RESPOSTAS----*/
+.desc-compressor{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#descricao{
+    background-color: #ffffff;
+    font-size: 17px;
+    border-Radius: 10px;
+    border: "solid black 2px";
+    font-Weight: 700;
+    padding: 30px 30px;
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+  
+}
